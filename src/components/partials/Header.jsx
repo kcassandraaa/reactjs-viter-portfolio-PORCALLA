@@ -9,21 +9,16 @@ const Header = () => {
 
   return (
     <>
-      <nav className="bg-white sticky top-0 z-50 shadow-md py-4 ">
-        <div className="container mx-auto flex items-center justify-between ">
+      <nav className="bg-rose-300 sticky top-0 z-50 shadow-md py-4 ">
+        <div className="container mx-auto px-10 flex items-center justify-between ">
           <div className="flex gap-3 items-center">
-            <img
-              src="./images/logo.webp"
-              alt="logo"
-              className="size-7 object-cover"
-            />
-            <h3 className="font-bold bg-gradient-to-r from-fuchsia-700 to-rose-500 text-transparent bg-clip-text text-xl">
+            <h3 className="font-bold text-white">
               PORTFOLIO
             </h3>
           </div>
 
-          <div className=" hidden md:flex gap-9 text-gray-700 font-semibold">
-            <a href="#" className="hover:text-rose-500 transition">
+          <div className=" hidden md:flex gap-9 text-white font-semibold">
+            <a href="#about" className="hover:text-rose-500 transition">
               About
             </a>
             <a href="#skills" className="hover:text-rose-500 transition">
@@ -32,14 +27,14 @@ const Header = () => {
             <a href="#projects" className="hover:text-rose-500 transition">
               Projects
             </a>
-            <a href="#contact" className="hover:text-rose-500 transition">
+            <a href="#contacts" className="hover:text-rose-500 transition">
               Contact
             </a>
           </div>
 
           <button
             onClick={toggleMenu}
-            className="md:hidden text-xl font-semibold focus:outline-none"
+            className="md:hidden text-xl font-semibold text-white/90 focus:outline-none"
           >
             {isMenuOpen ? <FaTimes /> : "☰"}
           </button>

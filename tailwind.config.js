@@ -3,10 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      sans: ["Truculenta", "sans-serif"],
+      sans: ["NotoSerif", "sans-serif"],
     },
     extend: {},
   },
   plugins: [],
 };
-
