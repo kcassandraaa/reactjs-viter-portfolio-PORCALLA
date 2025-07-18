@@ -8,9 +8,9 @@ import { SiCplusplus } from "react-icons/si";
 const Skills = () => {
   return (
     <>
-      <section id="skills" className="bg-gray-100 py-36">
-        <div className="container mx-auto px-32">
-          <h2 className="font-bold text-center text-gray-800 text-3xl lg:text-4xl xl:text-5xl mb-10">
+      <section id="skills" className="bg-gray-100 pt-32 pb-40">
+        <div className="container mx-auto px-4 md:px-10">
+          <h2 className="font-bold text-center text-gray-800 text-3xl lg:text-4xl xl:text-5xl mb-16">
             SKILLS
           </h2>
           <div className="flex flex-wrap gap-10 md:w-[50rem] place-self-center justify-center">

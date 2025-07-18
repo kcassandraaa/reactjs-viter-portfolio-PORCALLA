@@ -5,9 +5,9 @@ import CardEducation from "../../../partials/CardEducation";
 const About = () => {
   return (
     <>
-      <section id="about" className="bg-white py-36">
-        <div className="container mx-auto px-32 ">
-          <h2 className="font-bold text-gray-800 text-5xl text-center mb-10">
+      <section id="about" className="bg-white pt-32 pb-40">
+        <div className="container mx-auto px-4 md:px-10 ">
+          <h2 className="font-bold text-gray-800 text-5xl text-center mb-16">
             ABOUT ME
           </h2>
 
@@ -38,6 +38,7 @@ const About = () => {
               </h3>
 
               <CardEducation
+                src={"./images/bu.png"}
                 level={"College"}
                 year={"2022-2026"}
                 school={"Bicol University Polangui"}
@@ -45,6 +46,7 @@ const About = () => {
               />
 
               <CardEducation
+                src={"./images/lnhs.png"}
                 level={"High School"}
                 year={"2016-2022"}
                 school={"Ligao National High School"}

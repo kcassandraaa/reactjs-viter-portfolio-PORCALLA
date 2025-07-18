@@ -6,16 +6,22 @@ import Skills from "./skills/Skills";
 
 import Footer from "../../partials/Footer";
 import Contacts from "../../partials/Contacts";
+import Projects from "./projects/Projects";
 
 const Home = () => {
   return (
     <>
-      <Header />
-      <Banner />
-      <About />
-      <Skills />
-      <Contacts />
-      <Footer />
+      <div className="page-container">
+        <div className="content-wrap">
+          <Header />
+          <Banner />
+          <About />
+          <Skills />
+          <Projects/>
+          <Contacts />
+        </div>
+        <Footer />
+      </div>
     </>
   );
 };
