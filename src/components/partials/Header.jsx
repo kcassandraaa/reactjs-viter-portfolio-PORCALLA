@@ -13,7 +13,9 @@ const Header = () => {
       <nav className="bg-rose-300 sticky top-0 z-50 shadow-md py-4 ">
         <div className="container mx-auto px-10 flex items-center justify-between ">
           <div className="flex gap-3 items-center">
-            <h3 className="font-bold text-white">PORTFOLIO</h3>
+            <a href="#" className="font-bold text-white">
+              PORTFOLIO
+            </a>
           </div>
 
           <div className=" hidden md:flex gap-9 text-white font-semibold">

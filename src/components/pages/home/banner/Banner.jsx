@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <>
-      <section className="bg-gray-100 py-24 ">
+      <section className="bg-gray-100 py-36">
         <div className="container mx-auto px-32">
           <div className="grid lg:grid-cols-[1.3fr_1fr] gap-20 items-center justify-between md:text-start text-center">
             <div>

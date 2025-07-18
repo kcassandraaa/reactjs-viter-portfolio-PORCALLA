@@ -8,7 +8,7 @@ import { SiCplusplus } from "react-icons/si";
 const Skills = () => {
   return (
     <>
-      <section id="skills" className="bg-gray-100 py-24">
+      <section id="skills" className="bg-gray-100 py-36">
         <div className="container mx-auto px-32">
           <h2 className="font-bold text-center text-gray-800 text-3xl lg:text-4xl xl:text-5xl mb-10">
             SKILLS

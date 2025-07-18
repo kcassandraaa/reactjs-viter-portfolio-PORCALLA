@@ -13,7 +13,7 @@ import CardContact from "./CardContact";
 const Contacts = () => {
   return (
     <>
-      <section id="contacts" className="bg-white py-24">
+      <section id="contacts" className="bg-white py-56">
         <div className="container mx-auto px-32">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-14  items-center">
             <h2 className="text-rose-400 text-5xl lg:text-6xl xl:text-7xl font-semibold text-center  w-[25rem] place-self-center">
