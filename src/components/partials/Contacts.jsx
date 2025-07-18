@@ -20,7 +20,7 @@ const Contacts = () => {
               GET IN TOUCH WITH ME
             </h2>
 
-            <div className="flex flex-wrap justify-center">
+            <div className="flex flex-wrap gap-5 justify-center">
               <CardContact
                 link={
                   "https://www.linkedin.com/in/kyla-cassandra-porcalla-723033319/"
